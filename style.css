@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 506px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+  transition: width 2s;
+}
+ 
